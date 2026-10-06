@@ -1,0 +1,14 @@
+PR: <PR URL, added by /wp-submit>
+
+<One sentence: what the PR does and the root cause it addresses.>
+
+'''Testing'''
+ 1. <setup>
+ 2. <action> -> on trunk: <bug>; with the PR: <expected>
+
+Automated: `npm run test:php -- --group <ticket>` fails on trunk and passes with the PR.
+<Anything not tested, or a question for maintainers.>
+
+Suggested keywords: <e.g. has-patch has-unit-tests needs-testing>
+
+AI assistance: Yes (Claude Code), used for <short list>; reviewed and tested by me.
